@@ -24,7 +24,12 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r Django
+        pip install -r django-heroku
+        pip install -r pytz
+        pip install -r djangorestframework
+        pip install -r sqlparse
+        pip install -r gunicorn
+        pip install -r whitenoise
     - name: Run Tests
       run: |
         python manage.py test

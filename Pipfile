@@ -15,7 +15,9 @@ python_version = "3.6"
 "psycopg2-binary" = "*"
 django-heroku = "*"
 gunicorn = "*"
-
-
+sqlparse = "*"
+pytz = "*"
+djangorestframework = "*"
+whitenoise = "*"
 [dev-packages]
 
